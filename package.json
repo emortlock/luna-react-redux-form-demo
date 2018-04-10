@@ -3,11 +3,14 @@
   "description": "Base starting point to create Luna-React prototypes",
   "version": "0.0.43",
   "dependencies": {
-    "recompose": "0.26.0",
-    "react-dom": "16.0.0",
-    "react": "16.0.0",
+    "classnames": "2.2.5",
     "lodash.uniqueid": "4.0.1",
-    "classnames": "2.2.5"
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "5.0.7",
+    "recompose": "0.26.0",
+    "redux": "3.7.2",
+    "redux-form": "7.3.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.0"
