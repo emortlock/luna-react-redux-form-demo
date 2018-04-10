@@ -6,13 +6,13 @@ import {
   SelectField,
   CheckboxField,
   TextAreaField,
-} from '../../../luna-react/extensions/redux-form'
+} from '../../luna-react/extensions/redux-form'
 import {
   Form,
   ButtonGroup,
   PrimaryButton,
   SecondaryButton,
-} from '../../../luna-react'
+} from '../../luna-react'
 
 const SimpleForm = props => {
   const { handleSubmit, pristine, reset, submitting } = props
