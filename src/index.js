@@ -28,7 +28,7 @@ const showResults = values =>
 
 const App = () => (
   <Provider store={store}>
-    <SiteWrap padded className="ln-u-soft-top">
+    <SiteWrap padded className="ln-u-soft">
       <Example onSubmit={showResults} />
     </SiteWrap>
   </Provider>
